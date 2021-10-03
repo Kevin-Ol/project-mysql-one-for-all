@@ -56,10 +56,10 @@ MYSQL_USER=root MYSQL_PASSWORD= HOSTNAME=localhost npm test
 
 7 - Crie uma VIEW chamada `perfil_artistas` exibindo o nome dos artistas, os álbuns produzidos e o número de seguidores por álbum. Os resultados devem ser ordenados pela maior quantidade de seguidores, seguido pela ordenação alfabética do nome dos artistas e ordenação alfabética do nome dos álbuns;
 
-8 - Crie uma trigger chamada `trigger_usuario_delete` que deve ser disparada sempre que uma pessoa usuária for excluída do banco de dados, refletindo essa exclusão em todas as tabelas que ela estiver;
+8 - Crie uma TRIGGER chamada `trigger_usuario_delete` que deve ser disparada sempre que uma pessoa usuária for excluída do banco de dados, refletindo essa exclusão em todas as tabelas que ela estiver;
 
-9 - Crie uma procedure chamada `albuns_do_artista` que recebe como parâmetro o nome de uma pessoa artista e em retorno deve exibir seus respectivos álbuns. Os resultados devem ser ordenados pelo nome do álbum em ordem alfabética;
+9 - Crie uma PROCEDURE chamada `albuns_do_artista` que recebe como parâmetro o nome de uma pessoa artista e em retorno deve exibir seus respectivos álbuns. Os resultados devem ser ordenados pelo nome do álbum em ordem alfabética;
 
-10 - Crie uma function chamada de `quantidade_musicas_no_historico` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária;
+10 - Crie uma FUNCTION chamada de `quantidade_musicas_no_historico` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária;
 
 11 - Crie uma VIEW chamada `cancoes_premium` exibindo o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano familiar ou universitário. Os resultados devem estar agrupados pelo nome da canção e ordenados alfabeticamente.
